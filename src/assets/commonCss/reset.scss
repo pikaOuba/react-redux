@@ -1,0 +1,50 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+  margin:0;
+  padding:0
+}
+
+body{
+  font-size:14px;
+  font-family:'Microsoft Yahei 微软雅黑 Arial Narrow';
+  background:#fff;
+  -webkit-text-size-adjust:100%
+}
+
+a{
+  color:#172c45;
+  text-decoration:none;
+}
+em{
+  font-style:normal;
+}
+li{
+  list-style:none;
+}
+img{
+  border:0;
+  vertical-align:middle;
+}
+table{
+  border-collapse:collapse;
+  border-spacing:0
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both
+}
+#root {
+  height: 100%;
+  overflow-y: auto;
+}
